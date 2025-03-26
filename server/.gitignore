@@ -1,6 +1,13 @@
 # dependencies (bun install)
 node_modules
 
+
+# Prisma
+/prisma/migrations/**/migration_lock.toml
+/prisma/migrations/*/node_modules/
+/prisma/migrations/*/README.md
+
+
 # output
 out
 dist
